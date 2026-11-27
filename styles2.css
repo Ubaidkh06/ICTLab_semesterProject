@@ -1,0 +1,75 @@
+body, button
+{
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+body
+{
+    /*gneva*/
+    background-image: linear-gradient(rgb(255, 255, 255, 0.5), rgb(255, 255, 255, 0.5)), url(clock2.jpg); 
+    background-size: cover;;
+}
+
+.row
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.main
+{
+    background-image: linear-gradient(rgba(255, 153, 0, 0.3), rgb(255, 153, 0, 0.3));
+    min-width: 100px;
+    min-height: 100px;
+    margin: 100px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+
+
+input, select
+{
+    height: 40px;
+    border-radius: 10px;
+    border-color: grey;
+    background-color:bisque;
+}
+
+div
+{
+    margin-bottom: 25px;
+}
+
+#convertButton
+{
+    text-align: center;
+    background-color:burlywood;
+    border-radius: 10px;
+    border: solid black;
+    height: 40px;
+    width: 100%;
+    font-size: larger;
+    transition: background-color 0.25s ease;
+}
+
+#convertButton:hover
+{
+    background-color:rgb(255, 145, 0);
+}
+
+.result
+{
+    text-align: center; 
+    background-color: bisque;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+#resultText
+{
+    font-size: large;
+}
