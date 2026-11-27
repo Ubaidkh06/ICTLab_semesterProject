@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+
+    <div class="main">
+
+        <h1 style="text-align: center; font-size: 40px;">Timezone Converter</h1>
+
+        
+
+        <div class="row">
+            <div>
+                <label for="inputTime"><b>Select Time</b></label><br>
+                <input type="datetime-local" name="" id="timeInput" value="12:00">
+            </div>
+        
+            <div>
+                <label for="fromCity"><b>From city</b></label> <br>
+                <select name="" id="fromCity">
+                    <option value="Asia/Karachi">Asia/Karachi</option>
+                    <option value="Asia/Kolkata">Asia/Kolkata</option>
+                    <option value="Asia/Dubai">Asia/Dubai</option>
+                    <option value="Asia/Riyadh">Asia/Riyadh</option>
+                    <option value="Asia/Shanghai">Asia/Shanghai</option>
+                    <option value="Asia/Tokyo">Asia/Tokyo</option>
+                    <option value="Asia/Singapore">Asia/Singapore</option>
+                    <option value="Europe/London">Europe/London</option>
+                    <option value="Europe/Berlin">Europe/Berlin</option>
+                    <option value="America/New_York">America/New_York</option>
+                    <option value="America/Chicago">America/Chicago</option>
+                    <option value="America/Los_Angeles">America/Los_Angeles</option>
+                    <option value="Australia/Sydney">Australia/Sydney</option>
+                    <option value="Pacific/Auckland">Pacific/Auckland</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="toCity"><b>To city</b></label><br>
+                <select name="" id="toCity">
+                    <option value="Asia/Karachi">Asia/Karachi</option>
+                    <option value="Asia/Kolkata">Asia/Kolkata</option>
+                    <option value="Asia/Dubai">Asia/Dubai</option>
+                    <option value="Asia/Riyadh">Asia/Riyadh</option>
+                    <option value="Asia/Shanghai">Asia/Shanghai</option>
+                    <option value="Asia/Tokyo">Asia/Tokyo</option>
+                    <option value="Asia/Singapore">Asia/Singapore</option>
+                    <option value="Europe/London">Europe/London</option>
+                    <option value="Europe/Berlin">Europe/Berlin</option>
+                    <option value="America/New_York">America/New_York</option>
+                    <option value="America/Chicago">America/Chicago</option>
+                    <option value="America/Los_Angeles">America/Los_Angeles</option>
+                    <option value="Australia/Sydney">Australia/Sydney</option>
+                    <option value="Pacific/Auckland">Pacific/Auckland</option>
+                </select>
+            </div>
+        </div>
+        
+        <div>
+            <button id="convertButton" ><b>convert time</b></button>        
+        </div>
+
+        <div class="result">
+            <h1>RESULTS</h1>
+
+            <p id="resultText"><i><u>pick a time and click convert</u></i></p>
+            
+        </div>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
